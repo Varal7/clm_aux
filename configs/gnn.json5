@@ -1,0 +1,25 @@
+{
+  "main_search_space": {
+    "base": ["/Mounts/rbg-storage1/snapshots/repg2/ap_and_pa/checkpoint-15000/preds/train_scorer_0_2000"],
+    "test_base": ["/Mounts/rbg-storage1/snapshots/repg2/ap_and_pa/checkpoint-15000/preds/valid_scorer_13000_14000"],
+    "num_x": [2000],
+    "test_num_x": [1000],
+    "start_seed": [42],
+    "end_seed": [62],
+    "prefix": ["dev_sample_seed"],
+    "dropout": [0.1],
+    "num_layers": [2,3],
+    "learning_rate": [1e-4,1e-5,1e-3],
+    "weight_decay": [1e-1,1e-2,1e-3],
+    "num_epochs": [10],
+    "batch_size": [4],
+    "accumulate_grad_batches": [4, 8],
+    "save_dir": ["/storage/quach/snapshots/repg2/gnn"],
+    "workspace": ["varal7"],
+    "project_name": ["rep-gnn-2"],
+    "comet_tags": [["apr26"]],
+
+    "dispatcher_prefix": ["apr26-20seeds-"]
+  },
+  "available_gpus": [0,1,2,3,4,5,6,7],
+}

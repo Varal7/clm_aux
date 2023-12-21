@@ -1,0 +1,9 @@
+data/
+playground/
+.cometml-runs/
+*__pycache__/
+.ipynb_checkpoints/
+.nvimlog
+debug
+*.swp
+

@@ -1,0 +1,5 @@
+{
+  "python.formatting.provider": "black",
+  "python.formatting.blackPath": "/data/rsg/nlp/quach/miniconda3/envs/pt113/bin/black",
+  "coc.preferences.formatOnSaveFiletypes": ["python"]
+}
