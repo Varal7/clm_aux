@@ -2,6 +2,8 @@
 
 Aux repo for our [paper](https://arxiv.org/abs/2306.10193)
 
+Also see our [main repo](https://github.com/Varal7/conformal-language-modeling)
+
 ## Citation
 
 If you use our work, please cite
