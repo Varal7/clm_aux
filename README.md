@@ -19,6 +19,8 @@ For example, for TriviaQA:
  (b) run_triviaqa.sh, (adapt to your needs) which will apply our algorithm to the data created above.  
 4. You can analyse the produced outputs (prob_results.npz) with our analysis notebooks, e.g https://github.com/Varal7/conformal-language-modeling/blob/main/notebooks/plot.ipynb
 
+Alternatively, intermediate outputs of step 2 are available at `outputs/uncertainty`.
+
 ## Citation
 
 If you use our work, please cite
